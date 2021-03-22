@@ -420,6 +420,9 @@ Temporary Items
 .history
 .ionide
 
+##Api Settings##
+src/Hw.Api.Adapters/appsettings.json
+
 ### vscode ###
 !.vscode/settings.json
 !.vscode/extensions.json
