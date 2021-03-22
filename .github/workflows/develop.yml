@@ -20,6 +20,6 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore backend/Hw.Api/
     - name: Build
-      run: dotnet build backend/Hw.Api/src/*
+      run: dotnet build backend/Hw.Api/
     - name: Test
-      run: dotnet test backend/Hw.Api/tests/*
+      run: dotnet test backend/Hw.Api/
