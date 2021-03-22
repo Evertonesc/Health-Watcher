@@ -18,7 +18,7 @@ jobs:
       with:
         dotnet-version: 5.0.x
     - name: Restore dependencies
-      run: dotnet restore backend/Hw.Api/src/*
+      run: dotnet restore backend/Hw.Api/
     - name: Build
       run: dotnet build backend/Hw.Api/src/*
     - name: Test
