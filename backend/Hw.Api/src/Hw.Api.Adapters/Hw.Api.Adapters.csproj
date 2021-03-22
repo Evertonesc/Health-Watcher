@@ -4,5 +4,10 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Hw.Api.Infrastructure\Hw.Api.Infrastructure.csproj" />
+    <ProjectReference Include="..\Hw.Api.Ioc\Hw.Api.Ioc.csproj" />
+  </ItemGroup>
+
 
 </Project>
